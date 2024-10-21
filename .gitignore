@@ -1,0 +1,15 @@
+# Entornos virtuales
+venv/
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de caché
+__pycache__/
+*.pyc
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos pdf
+.pdf
