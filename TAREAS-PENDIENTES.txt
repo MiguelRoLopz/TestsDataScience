@@ -1,0 +1,1 @@
+- Revisar todo el código implementado en https://github.com/nchand/automobile-data-analysis/blob/master/automobile.ipynb
