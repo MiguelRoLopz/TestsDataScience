@@ -1,8 +1,6 @@
 # MRL-TestDataScience-1
 Este proyecto consiste en la clasificación de automóviles utilizando el `Automobile` Dataset de UCI Machine Learning Repository, disponible desde el siguiente enlace > https://archive.ics.uci.edu/dataset/10/automobile
 
-Se ha escogido este Dataset ya que en la primera entrevista se mencionó el enfoque de trabajo en un cliente del sector automoción.
-
 ## Instalación
 1. Clonar o descargar el repositorio en local
 2. En mi caso, he creado un entorno virtual ('env1') para instalar las bibliotecas y ejecutar los scripts
