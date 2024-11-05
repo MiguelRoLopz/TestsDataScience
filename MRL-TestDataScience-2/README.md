@@ -5,14 +5,18 @@ El dataset sobre el que vamos a trabajar está disponible en la página web de C
 
 ## Instalación
 1. Clonar o descargar el repositorio en local
-2. En mi caso, he creado un entorno virtual ('env2') para instalar las bibliotecas y ejecutar los scripts
+2. En mi caso, he creado dos entornos virtuales: 'env2' para instalar las bibliotecas y ejecutar los notebooks 'load_dataset.ipynb' y 'regression_model.ipynb' que utilizan Python=3.12.7, y 'env3' para instalar las bibliotecas y ejecutar el notebook 'LSTM_model.ipynb' que utiliza Python=3.10 por compatibilidad de versiones con las bibliotecas de TensorFlow.
 3. Instalar las dependencias> pip install -r requirements.txt
 
 ## Estructura del proyecto
 
-- .csv> 
-- env2> Entorno virtual con las bibliotecas necesarias instaladas
+- data_biodiesel.csv> Dataset preparado para ejecutar los modelos de ML basados en LSTM
+- dataset4regression.csv> Dataset preparado para ejeuctar los modelos de series temporales
+- ds_2943_1.csv> Dataset original descargado desde la web de CNMC Data
 - README.md
-- requirements.txt> Archivo que contiene las dependencias necesarias para ejecutar el código del proyecto.
+- requirements_env2.txt> Archivo que contiene las dependencias necesarias para ejecutar los dos primeros scripts
+- requirements_LSTM.txt> Archivo que contiene las depedndencias necesarias para ejecutar el último script
 - Secuencia de ejecución de los scripts:
-    1. 
+    1. load_dataset.ipynb
+    2. regression_model.ipynb
+    3. LSTM_model.ipynb

@@ -1,0 +1,9 @@
+python==3.10
+tensorflow==2.10
+keras==2.10
+pandas
+matplotlib
+scikit-learn
+scipy
+ipykernel
+jupyter
